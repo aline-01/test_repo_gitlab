@@ -3,3 +3,8 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+  
+
+index:
+    path: /test/{tt1}
+    controller: App\Controller\first_Controller::say_hello
