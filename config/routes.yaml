@@ -6,5 +6,13 @@ controllers:
   
 
 index:
-    path: /test/{tt1}
+    path: /test
     controller: App\Controller\first_Controller::say_hello
+
+index2:
+    path: /view_test
+    controller: App\Controller\second_Controller::first_view
+
+blog:
+    path: /blog/{title}
+    controller: App\Controller\second_Controller::blog

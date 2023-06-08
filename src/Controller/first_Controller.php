@@ -15,8 +15,8 @@ class first_Controller
         //    '<html><body>Lucky number: '.$number.'</body></html>'
         //);
     //}
-    public function say_hello($ttl){
-        return new Response("<h1>Hello There {$ttl}</h1>");
+    public function say_hello(){
+        return new Response("<h1>Hello There </h1>");
     }
 }
 
